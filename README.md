@@ -1,8 +1,10 @@
 # Longevity Tracker
 
-Static training log for Stefan. GitHub Pages serves this repository from the `main` branch at the site root:
+Static training log for Stefan. Publish it with GitHub Pages from the `main` branch, folder `/` (root). The public URL is:
 
 https://peraugym.github.io/Longevity-Tracker/
+
+If that URL 404s, open the repository **Settings → Pages**, set **Build and deployment** to **Deploy from a branch**, choose branch `main` and folder `/ (root)`, then save. The first deploy can take a minute.
 
 There is no build, no framework, and no server. `index.html`, `styles.css`, and `app.js` load **`data/data.json`** in the browser and render every number from that file. A weekly update is one edit to `data/data.json`, then a commit to `main`. Refresh the page to see it. Do not put sessions, weights, or targets in the JavaScript.
 
